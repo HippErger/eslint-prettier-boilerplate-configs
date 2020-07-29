@@ -1,0 +1,5 @@
+{
+  "singleQuotes": true,
+  "arrowParens": "always",
+  "semi": false
+}
