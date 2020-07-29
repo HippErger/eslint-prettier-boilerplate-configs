@@ -1,12 +1,27 @@
 {
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2020": true
+  },
   "extends": ["airbnb", "prettier", "plugin:node/recommended"],
-  "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
+    "max-classes-per-file": 0,
     "no-unused-vars": "error",
     "no-console": "warn",
     "func-names": "off",
     "object-shorthand": "warn",
-    "class-methods-use-this": "warn"
-  }
+    "class-methods-use-this": "warn",
+    "endOfLine":"off"
+
+
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11
+  },
+  "plugins": ["react", "prettier"]
 }
