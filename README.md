@@ -1,5 +1,10 @@
 # Setup Boilerplate
 
+1. npm i
+2. npm i dotenv
+3. create .env
+4. npx install-peerdeps --dev eslint-config-airbnb
+
 This repo is setup to begin working immediately with AirBNB code style rules, using ESLint for warnings and errors, Prettier as a formatter and configured for VS Code.
 
 ## IF you're cloning this repo and building off of it you'll need to:
@@ -7,7 +12,8 @@ This repo is setup to begin working immediately with AirBNB code style rules, us
 1. Fork & Clone
 2. `cd eslint-boilerplate-configs`
 3. `npm i` to install dependencies
-4. `npx install-peerdeps --dev eslint-config-airbnb` to install peer dependencies
+4. `npx install-peerdeps --dev eslint-config-airbnb` to install peer dependencies and `npm i dotenv` and create .env file
+
 5. Install Prettier and Eslint Extensions for VS Code
 
    1. Go to VSC Settings (CMD + , || CTRL + ,)
